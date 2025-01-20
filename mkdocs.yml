@@ -1,0 +1,22 @@
+site_name: Sriram Developer Setup
+nav:
+  - Home: index.md
+  - Complete Setup:
+      - MacBook Instructions:
+          - Macbook Initial Setup: macbook/initial-setup.md
+          - Terminal:
+              - MacBook NeoVim Setup: macbook/terminal/neovim-setup.md
+              - MacBook TMUX Setup: macbook/terminal/tmux-setup.md
+              - MacBook Terminal Keyboard Shortcuts: macbook/terminal/keyboard-shortcuts.md
+          - Visual Studio Code:
+              - MacBook VSCode Setup: macbook/Visual Studio Code/vscode-setup.md
+              - MacBook VSCode Extensions List: macbook/Visual Studio Code/extensions.md
+              - MacBook VSCode Keyboard Shortcuts: macbook/Visual Studio Code/keyboard-shortcuts.md
+              - MacBook VSCode Settings JSON: macbook/Visual Studio Code/settings.md
+              - MacBook VSCode Keybindings JSON: macbook/Visual Studio Code/keybindings.md
+              - MacBook VSCode Themes & Icons: macbook/Visual Studio Code/themes.md
+              - MacBook VSCode User Snippets: macbook/Visual Studio Code/user_snippets.md
+  - Daily Keyboard Shortcuts:
+      - MacBook Terminal Keyboard Shortcuts: macbook/terminal/keyboard-shortcuts.md
+      - MacBook VSCode Keyboard Shortcuts: macbook/Visual Studio Code/keyboard-shortcuts.md
+theme: readthedocs

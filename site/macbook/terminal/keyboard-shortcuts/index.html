@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>MacBook Terminal Keyboard Shortcuts - Sriram Developer Setup</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "MacBook Terminal Keyboard Shortcuts";
+        var mkdocs_page_input_path = "macbook/terminal/keyboard-shortcuts.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../.." class="icon icon-home"> Sriram Developer Setup
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Complete Setup</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" >MacBook Instructions</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../initial-setup/">Macbook Initial Setup</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Terminal</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../neovim-setup/">MacBook NeoVim Setup</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../tmux-setup/">MacBook TMUX Setup</a>
+                </li>
+                <li class="toctree-l3 current"><a class="reference internal current" href="#">MacBook Terminal Keyboard Shortcuts</a>
+    <ul class="current">
+    <li class="toctree-l4"><a class="reference internal" href="#legend">Legend</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#direct-git-related-shortcuts">Direct Git related shortcuts</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#general-terminal-shortcuts">General Terminal Shortcuts</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#splitting-terminal-shortcuts">Splitting Terminal Shortcuts</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#tmux-related-shortcuts">TMUX Related Shortcuts</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#neovim-shortcuts">NeoVim Shortcuts</a>
+    </li>
+    </ul>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Visual Studio Code</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../../Visual%20Studio%20Code/vscode-setup/">MacBook VSCode Setup</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../Visual%20Studio%20Code/extensions/">MacBook VSCode Extensions List</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../Visual%20Studio%20Code/keyboard-shortcuts/">MacBook VSCode Keyboard Shortcuts</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../Visual%20Studio%20Code/settings/">MacBook VSCode Settings JSON</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../Visual%20Studio%20Code/keybindings/">MacBook VSCode Keybindings JSON</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../Visual%20Studio%20Code/themes/">MacBook VSCode Themes & Icons</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../../Visual%20Studio%20Code/user_snippets/">MacBook VSCode User Snippets</a>
+                </li>
+    </ul>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Daily Keyboard Shortcuts</span></p>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">MacBook Terminal Keyboard Shortcuts</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#legend">Legend</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#direct-git-related-shortcuts">Direct Git related shortcuts</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#general-terminal-shortcuts">General Terminal Shortcuts</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#splitting-terminal-shortcuts">Splitting Terminal Shortcuts</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#tmux-related-shortcuts">TMUX Related Shortcuts</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#neovim-shortcuts">NeoVim Shortcuts</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#general-commands">General Commands</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#mode-related-commands">Mode Related Commands</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#macro-related-commands">Macro Related Commands</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#search-related-commands">Search Related Commands</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#files-related-commands">Files Related Commands</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#window-related-commands">Window Related Commands</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#tabs-related-commands">Tabs Related Commands</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#file-explorer-related-commands">File Explorer Related Commands</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#telescope-related-commands">Telescope Related Commands</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#auto-session-related-commands">Auto Session Related Commands</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#treesitter-related-commands">TreeSitter Related Commands</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#autocomplete-related-commands">AutoComplete Related Commands</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#comments-related-commands">Comments Related Commands</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#todo-comments-related-commands">TODO-Comments Related Commands</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#substitution-related-commands">Substitution Related Commands</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#surround-related-commands">Surround Related Commands</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#lsp-related-commands">LSP Related Commands</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#trouble-related-commands">Trouble Related Commands</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#formatting-related-commands">Formatting Related Commands</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#linting-related-commands">Linting Related Commands</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#git-related-commands">Git Related Commands</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#git-related-commands_1">Git Related Commands</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#github-copilot-related-commands">Github Copilot Related Commands</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Visual%20Studio%20Code/keyboard-shortcuts/">MacBook VSCode Keyboard Shortcuts</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">Sriram Developer Setup</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Daily Keyboard Shortcuts</li>
+      <li class="breadcrumb-item active">MacBook Terminal Keyboard Shortcuts</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="mac-terminal-shortcuts">Mac Terminal Shortcuts</h1>
+<h2 id="legend"><font color="orange">Legend</font></h2>
+<p><font size="6">Ctrl - ^</font></p>
+<p><font size="6">Shift - ⇧</font></p>
+<p><font size="6">Option - ⌥</font></p>
+<p><font size="6">Command - ⌘</font></p>
+<p><font size="6">Space - [___]</font></p>
+<p><font size="6">Tab - TAB</font></p>
+<hr />
+<hr />
+<hr />
+<h2 id="direct-git-related-shortcuts"><font color="orange">Direct Git related shortcuts</font></h2>
+<p><font size="5"><mark>git status</mark></font></p>
+<p><font size="6">gst</font></p>
+<p><strong>gst</strong></p>
+<hr />
+<p><font size="5"><mark>git add</mark></font></p>
+<p><font size="6">ga FILES_LIST</font></p>
+<p><strong>ga FILES_LIST</strong></p>
+<hr />
+<p><font size="5"><mark>git commit -m commit_message</mark></font></p>
+<p><font size="6">gcmsg "COMMIT_MESSAGE"</font></p>
+<p><strong>gcmsg "COMMIT_MESSAGE"</strong></p>
+<hr />
+<p><font size="5"><mark>git pull origin current_branch</mark></font></p>
+<p><font size="6">ggl</font></p>
+<p><strong>ggl</strong></p>
+<hr />
+<p><font size="5"><mark>git push origin current_branch</mark></font></p>
+<p><font size="6">ggp</font></p>
+<p><strong>ggp</strong></p>
+<hr />
+<p><font size="5"><mark>git branch</mark></font></p>
+<p><font size="6">gb</font></p>
+<p><strong>gb</strong></p>
+<hr />
+<p><font size="5"><mark>git checkout -b new_branch_name</mark></font></p>
+<p><font size="6">gcb NEW_BRANCH_NAME</font></p>
+<p><strong>gcb NEW_BRANCH_NAME</strong></p>
+<hr />
+<p><font size="5"><mark>Set upstream to origin/current_branch</mark></font></p>
+<p><font size="6">ggsup</font></p>
+<p><strong>ggsup</strong></p>
+<hr />
+<p><font size="5"><mark>git fetch</mark></font></p>
+<p><font size="6">gf</font></p>
+<p><strong>gf</strong></p>
+<hr />
+<p><font size="5"><mark>git checkout branch_name</mark></font></p>
+<p><font size="6">gco BRANCH_NAME</font></p>
+<p><strong>gco BRANCH_NAME</strong></p>
+<hr />
+<p><font size="5"><mark>git diff</mark></font></p>
+<p><font size="6">gd</font></p>
+<p><strong>gd</strong></p>
+<hr />
+<hr />
+<hr />
+<h2 id="general-terminal-shortcuts"><font color="orange">General Terminal Shortcuts</font></h2>
+<p><font size="5"><mark>Increase font size</mark></font></p>
+<p><font size="6">⌘ +</font></p>
+<p><strong>Command +</strong></p>
+<hr />
+<p><font size="5"><mark>Decrease font size</mark></font></p>
+<p><font size="6">⌘ -</font></p>
+<p><strong>Command -</strong></p>
+<hr />
+<hr />
+<hr />
+<h2 id="splitting-terminal-shortcuts"><font color="orange">Splitting Terminal Shortcuts</font></h2>
+<p><font size="5"><mark>Split Terminal Vertically</mark></font></p>
+<p><font size="6">⌘ d</font></p>
+<p><strong>Command d</strong></p>
+<hr />
+<p><font size="5"><mark>Split Terminal Horizontally</mark></font></p>
+<p><font size="6">⌘ ⇧ d</font></p>
+<p><strong>Command Shift d</strong></p>
+<hr />
+<p><font size="5"><mark>Move between split terminal panes</mark></font></p>
+<p><font size="6">⌘ ⌥ Up/Down/Left/Right</font></p>
+<p><strong>Command Option Up/Down/Left/Right</strong></p>
+<hr />
+<p><font size="5"><mark>Close Terminal Pane</mark></font></p>
+<p><font size="6">^ d</font></p>
+<p><strong>Ctrl d</strong></p>
+<hr />
+<hr />
+<hr />
+<h2 id="tmux-related-shortcuts"><font color="orange">TMUX Related Shortcuts</font></h2>
+<p><font size="5"><mark>TMUX Prefix</mark></font></p>
+<p><font size="6">^ a</font></p>
+<p><strong>Control a</strong></p>
+<hr />
+<p><font size="5"><mark>Create new TMUX Session</mark></font></p>
+<p><font size="6">tmux new -s SESSION_NAME</font></p>
+<p><strong>tmux new -s SESSION_NAME</strong></p>
+<hr />
+<p><font size="5"><mark>Exit TMUX Session</mark></font></p>
+<p><font size="6">tmux detach</font></p>
+<p><strong>tmux detach</strong></p>
+<hr />
+<p><font size="5"><mark>List all TMUX Sessions</mark></font></p>
+<p><font size="6">tmux ls</font></p>
+<p><strong>tmux ls</strong></p>
+<hr />
+<p><font size="5"><mark>Go back into a session</mark></font></p>
+<p><font size="6">tmux attach -t SESSION_NAME</font></p>
+<p><strong>tmux attach -t SESSION_NAME</strong></p>
+<hr />
+<p><font size="5"><mark>Kill a TMUX session</mark></font></p>
+<p><font size="6">^ a &nbsp;&nbsp; :kill-session</font></p>
+<p><strong>^ a &nbsp;&nbsp; :kill-session</strong></p>
+<hr />
+<p><font size="5"><mark>See all sessions from within TMUX</mark></font></p>
+<p><font size="6">^ a &nbsp;&nbsp; s</font></p>
+<p><strong>Control a &nbsp;&nbsp; s</strong></p>
+<p>Navigate through the list using j &amp; k</p>
+<hr />
+<p><font size="5"><mark>Split TMUX Pane Horizontally</mark></font></p>
+<p><font size="6">^ a &nbsp;&nbsp; -</font></p>
+<p><strong>Control a &nbsp;&nbsp; -</strong></p>
+<hr />
+<p><font size="5"><mark>Split TMUX Pane Vertically</mark></font></p>
+<p><font size="6">^ a &nbsp;&nbsp; ⇧ |</font></p>
+<p><strong>Control a &nbsp;&nbsp; Shift |</strong></p>
+<hr />
+<p><font size="5"><mark>Refresh TMUX configuration</mark></font></p>
+<p><font size="6">^ a &nbsp;&nbsp; r</font></p>
+<p><strong>Control a &nbsp;&nbsp; r</strong></p>
+<hr />
+<p><font size="5"><mark>Tell Source File to TMUX (first time only)</mark></font></p>
+<p><font size="6">^ a &nbsp;&nbsp; :source-file ~/.tmux.conf</font></p>
+<p><strong>Control a &nbsp;&nbsp; :source-file ~/.tmux.conf</strong></p>
+<hr />
+<p><font size="5"><mark>Resize a particular pane</mark></font></p>
+<p><font size="6">^ a &nbsp;&nbsp; h/j/k/l</font></p>
+<p><strong>Control a &nbsp;&nbsp; h/j/k/l</strong></p>
+<hr />
+<p><font size="5"><mark>Maximize or Minimize pane</mark></font></p>
+<p><font size="6">^ a &nbsp;&nbsp; m</font></p>
+<p><strong>Control a &nbsp;&nbsp; m</strong></p>
+<hr />
+<p><font size="5"><mark>Install a TMUX Plugin after editing config file</mark></font></p>
+<p><font size="6">^ a &nbsp;&nbsp; ⇧ I</font></p>
+<p><strong>Control a &nbsp;&nbsp; Shift I</strong></p>
+<hr />
+<p><font size="5"><mark>Navigate between panes</mark></font></p>
+<p><font size="6">^ h/j/k/l</font></p>
+<p><strong>Control h/j/k/l</strong></p>
+<hr />
+<p><font size="5"><mark>Create new TMUX Window</mark></font></p>
+<p><font size="6">^ a &nbsp;&nbsp; c</font></p>
+<p><strong>Control a &nbsp;&nbsp; c</strong></p>
+<hr />
+<p><font size="5"><mark>Navigate between TMUX Windows</mark></font></p>
+<p><font size="6">^ a &nbsp;&nbsp; WINDOW_NUMBER</font></p>
+<p><strong>Control a &nbsp;&nbsp; WINDOW_NUMBER</strong></p>
+<hr />
+<p><font size="5"><mark>Rename a TMUX Window</mark></font></p>
+<p><font size="6">^ a &nbsp;&nbsp; , NEW_WINDOW_NAME</font></p>
+<p><strong>Control a &nbsp;&nbsp; , NEW_WINDOW_NAME</strong></p>
+<hr />
+<p><font size="5"><mark>Cycle through windows</mark></font></p>
+<p><font size="6">^ a &nbsp;&nbsp; n/p</font></p>
+<p><strong>Control a &nbsp;&nbsp; n/p</strong></p>
+<hr />
+<p><font size="5"><mark>See all windows from within TMUX</mark></font></p>
+<p><font size="6">^ a &nbsp;&nbsp; w</font></p>
+<p><strong>Control a &nbsp;&nbsp; w</strong></p>
+<p>Navigate through the list using j &amp; k</p>
+<hr />
+<p><font size="5"><mark>Enable TMUX Copy Mode</mark></font></p>
+<p><font size="6">^ a &nbsp;&nbsp; [</font></p>
+<p><strong>Control a &nbsp;&nbsp; [</strong></p>
+<p>Go up and down - j &amp; k</p>
+<p>Go up and down while keeping cursor static - Shift j/k</p>
+<p>Go up and down half a page - Control U/Control D</p>
+<p>Go up and down full page - Control B/Control F</p>
+<p>Copy stuff like Vim with v and y</p>
+<hr />
+<p><font size="5"><mark>Exit Copy Mode</mark></font></p>
+<p><font size="6">^ c</font></p>
+<p><strong>Control c</strong></p>
+<hr />
+<hr />
+<hr />
+<h2 id="neovim-shortcuts"><font color="orange">NeoVim Shortcuts</font></h2>
+<h3 id="general-commands"><font color="green">General Commands</font></h3>
+<p><font size="5"><mark>Open NeoVim</mark></font></p>
+<p><font size="6">nvim</font></p>
+<p><strong>nvim</strong></p>
+<hr />
+<p><font size="5"><mark>Leader Key</mark></font></p>
+<p><font size="6">[___]</font></p>
+<p><strong>Space</strong></p>
+<hr />
+<p><font size="5"><mark>Move inside Vim file in Normal Mode</mark></font></p>
+<p><font size="6">h/j/k/l</font></p>
+<p><strong>h/j/k/l</strong></p>
+<hr />
+<p><font size="5"><mark>Go 'n' number of lines up/down</mark></font></p>
+<p><font size="6">NUMBER j/k</font></p>
+<p><strong>NUMBER j/k</strong></p>
+<hr />
+<p><font size="5"><mark>Go to particular line number</mark></font></p>
+<p><font size="6">:NUMBER</font></p>
+<p><strong>:NUMBER</strong></p>
+<hr />
+<p><font size="5"><mark>Find occurrence and replace</mark></font></p>
+<p><font size="6">:%s/OLD_WORD/NEW_WORD/gc</font></p>
+<p><strong>:%s/OLD_WORD/NEW_WORD/gc</strong></p>
+<hr />
+<p><font size="5"><mark>Go to matching bracket</mark></font></p>
+<p><font size="6">%</font></p>
+<p><strong>%</strong></p>
+<hr />
+<p><font size="5"><mark>Save a file</mark></font></p>
+<p><font size="6">:w</font></p>
+<p><strong>:w</strong></p>
+<hr />
+<p><font size="5"><mark>Exit Vim</mark></font></p>
+<p><font size="6">:q</font></p>
+<p><strong>:q</strong></p>
+<hr />
+<p><font size="5"><mark>Source Current File</mark></font></p>
+<p><font size="6">source %</font></p>
+<p><strong>source %</strong></p>
+<hr />
+<p><font size="5"><mark>Increment and Decrement Numbers</mark></font></p>
+<p><font size="6">[___] +/-</font></p>
+<p><strong>space +/-</strong></p>
+<hr />
+<h3 id="mode-related-commands"><font color="green">Mode Related Commands</font></h3>
+<p><font size="5"><mark>Enter Insert Mode</mark></font></p>
+<p><font size="6">i</font></p>
+<p><strong>i</strong></p>
+<hr />
+<p><font size="5"><mark>Exit Insert Mode</mark></font></p>
+<p><font size="6">jk (or) Esc</font></p>
+<p><strong>jk (or) Esc</strong></p>
+<hr />
+<p><font size="5"><mark>Enter Visual Mode</mark></font></p>
+<p><font size="6">v</font></p>
+<p><strong>v</strong></p>
+<hr />
+<p><font size="5"><mark>Move Full Page Up/Down</mark></font></p>
+<p><font size="6">^ f/b</font></p>
+<p><strong>Control f/b</strong></p>
+<hr />
+<p><font size="5"><mark>Move Half Page Up/Down</mark></font></p>
+<p><font size="6">^ u/d</font></p>
+<p><strong>Control u/d</strong></p>
+<hr />
+<h3 id="macro-related-commands"><font color="green">Macro Related Commands</font></h3>
+<p><font size="5"><mark>Recording a new macro</mark></font></p>
+<p><font size="6">q REGISTER_LETTER MACRO_COMMANDS_LIST q</font></p>
+<p><strong>q REGISTER_LETTER MACRO_COMMANDS_LIST q</strong></p>
+<hr />
+<p><font size="5"><mark>Macro to Save All Files</mark></font></p>
+<p><font size="6">@s</font></p>
+<p><strong>@s</strong></p>
+<hr />
+<h3 id="search-related-commands"><font color="green">Search Related Commands</font></h3>
+<p><font size="5"><mark>Search string in a file</mark></font></p>
+<p><font size="6">/SEARCH_STRING</font></p>
+<p><strong>/SEARCH_STRING</strong></p>
+<hr />
+<p><font size="5"><mark>Go to Next Search Occurence</mark></font></p>
+<p><font size="6">n</font></p>
+<p><strong>n</strong></p>
+<hr />
+<p><font size="5"><mark>Go to Previous Search Occurence</mark></font></p>
+<p><font size="6">N</font></p>
+<p><strong>N</strong></p>
+<hr />
+<p><font size="5"><mark>Clear Search Highlights</mark></font></p>
+<p><font size="6">[___] nh</font></p>
+<p><strong>Space nh</strong></p>
+<hr />
+<p><font size="5"><mark>Go to previous whole word under cursor</mark></font></p>
+<p><font size="6">#</font></p>
+<p><strong>#</strong></p>
+<hr />
+<p><font size="5"><mark>Go to next whole word under cursor</mark></font></p>
+<p><font size="6">*</font></p>
+<p><strong>/*</strong></p>
+<hr />
+<h3 id="files-related-commands"><font color="green">Files Related Commands</font></h3>
+<p><font size="5"><mark>Create a file</mark></font></p>
+<p><font size="6">a FILE_NAME</font></p>
+<p><strong>a FILE_NAME</strong></p>
+<hr />
+<p><font size="5"><mark>Rename a file</mark></font></p>
+<p><font size="6">r FILE_NAME</font></p>
+<p><strong>r FILE_NAME</strong></p>
+<hr />
+<h3 id="window-related-commands"><font color="green">Window Related Commands</font></h3>
+<p><font size="5"><mark>Split window vertically</mark></font></p>
+<p><font size="6">[___] sv</font></p>
+<p><strong>Space sv</strong></p>
+<hr />
+<p><font size="5"><mark>Split window horizontally</mark></font></p>
+<p><font size="6">[___] sh</font></p>
+<p><strong>Space sh</strong></p>
+<hr />
+<p><font size="5"><mark>Make split windows equal size</mark></font></p>
+<p><font size="6">[___] se</font></p>
+<p><strong>Space se</strong></p>
+<hr />
+<p><font size="5"><mark>Close current split window</mark></font></p>
+<p><font size="6">[___] sx</font></p>
+<p><strong>Space sx</strong></p>
+<hr />
+<p><font size="5"><mark>Maximize/Minimize split window</mark></font></p>
+<p><font size="6">[___] sm</font></p>
+<p><strong>Space sm</strong></p>
+<hr />
+<h3 id="tabs-related-commands"><font color="green">Tabs Related Commands</font></h3>
+<p><font size="5"><mark>Open new tab</mark></font></p>
+<p><font size="6">[___] to</font></p>
+<p><strong>Space to</strong></p>
+<hr />
+<p><font size="5"><mark>Close current tab</mark></font></p>
+<p><font size="6">[___] tx</font></p>
+<p><strong>Space tx</strong></p>
+<hr />
+<p><font size="5"><mark>Go to next tab</mark></font></p>
+<p><font size="6">[___] tn</font></p>
+<p><strong>Space tn</strong></p>
+<hr />
+<p><font size="5"><mark>Go to previous tab</mark></font></p>
+<p><font size="6">[___] tp</font></p>
+<p><strong>Space tp</strong></p>
+<hr />
+<p><font size="5"><mark>Open current file in New Tab</mark></font></p>
+<p><font size="6">[___] tf</font></p>
+<p><strong>Space tf</strong></p>
+<hr />
+<p><font size="5"><mark>Switch to specific tab using BufferLinePicker</mark></font></p>
+<p><font size="6">[___] bl INDICATOR_LETTER</font></p>
+<p><strong>Space bl INDICATOR_LETTER</strong></p>
+<hr />
+<h3 id="file-explorer-related-commands"><font color="green">File Explorer Related Commands</font></h3>
+<p><font size="5"><mark>Toggle file explorer</mark></font></p>
+<p><font size="6">[___] ee</font></p>
+<p><strong>Space ee</strong></p>
+<hr />
+<p><font size="5"><mark>Toggle file explorer on current file</mark></font></p>
+<p><font size="6">[___] ef</font></p>
+<p><strong>Space ef</strong></p>
+<hr />
+<p><font size="5"><mark>Collapse file explorer</mark></font></p>
+<p><font size="6">[___] ec</font></p>
+<p><strong>Space ec</strong></p>
+<hr />
+<p><font size="5"><mark>Refresh file explorer</mark></font></p>
+<p><font size="6">[___] er</font></p>
+<p><strong>Space er</strong></p>
+<hr />
+<p><font size="5"><mark>Create a file/folder in explorer</mark></font></p>
+<p><font size="6">a</font></p>
+<p><strong>a</strong></p>
+<hr />
+<p><font size="5"><mark>Rename a file/folder in explorer</mark></font></p>
+<p><font size="6">r</font></p>
+<p><strong>r</strong></p>
+<hr />
+<h3 id="telescope-related-commands"><font color="green">Telescope Related Commands</font></h3>
+<p><font size="5"><mark>Open Telescope to Find Files</mark></font></p>
+<p><font size="6">[___] ff</font></p>
+<p><strong>Space ff</strong></p>
+<hr />
+<p><font size="5"><mark>Move Up and Down in Telescope File Results</mark></font></p>
+<p><font size="6">^ k/j</font></p>
+<p><strong>Control k/j</strong></p>
+<hr />
+<p><font size="5"><mark>Search for string across whole project</mark></font></p>
+<p><font size="6">[___] fs</font></p>
+<p><strong>Space fs</strong></p>
+<hr />
+<p><font size="5"><mark>Look for recently opened files</mark></font></p>
+<p><font size="6">[___] fr</font></p>
+<p><strong>Space fr</strong></p>
+<hr />
+<p><font size="5"><mark>Look for current word across whole project</mark></font></p>
+<p><font size="6">[___] fc</font></p>
+<p><strong>Space fc</strong></p>
+<hr />
+<p><font size="5"><mark>Go to previous file opened by telescope</mark></font></p>
+<p><font size="6">^ o</font></p>
+<p><strong>Control o</strong></p>
+<hr />
+<p><font size="5"><mark>Find files with hidden files enabled</mark></font></p>
+<p><font size="6">[___] fh</font></p>
+<p><strong>Space fh</strong></p>
+<hr />
+<p><font size="5"><mark>Go to forwards file opened by telescope</mark></font></p>
+<p><font size="6">^ i</font></p>
+<p><strong>Control i</strong></p>
+<hr />
+<h3 id="auto-session-related-commands"><font color="green">Auto Session Related Commands</font></h3>
+<p><font size="5"><mark>Restore session for current working directory</mark></font></p>
+<p><font size="6">[___] wr</font></p>
+<p><strong>Space wr</strong></p>
+<hr />
+<p><font size="5"><mark>Save session for current working directory</mark></font></p>
+<p><font size="6">[___] ws</font></p>
+<p><strong>Space ws</strong></p>
+<hr />
+<h3 id="treesitter-related-commands"><font color="green">TreeSitter Related Commands</font></h3>
+<p><font size="5"><mark>Open Inspect Tree</mark></font></p>
+<p><font size="6">:InspectTree</font></p>
+<p><strong>:InspectTree</strong></p>
+<hr />
+<p><font size="5"><mark>Close Inspect Tree</mark></font></p>
+<p><font size="6">[___] sx</font></p>
+<p><strong>Space sx</strong></p>
+<hr />
+<p><font size="5"><mark>Incremental Selection</mark></font></p>
+<p><font size="6">^ [___]</font></p>
+<p><strong>Control Space</strong></p>
+<hr />
+<h3 id="autocomplete-related-commands"><font color="green">AutoComplete Related Commands</font></h3>
+<p><font size="5"><mark>Open autocomplete suggestions</mark></font></p>
+<p><font size="6">^ [___]</font></p>
+<p><strong>Control Space</strong></p>
+<hr />
+<p><font size="5"><mark>Go to previous or next suggestion</mark></font></p>
+<p><font size="6">^ j/k</font></p>
+<p><strong>Control j/k</strong></p>
+<hr />
+<p><font size="5"><mark>Close autocomplete suggestions</mark></font></p>
+<p><font size="6">^ e</font></p>
+<p><strong>Control e</strong></p>
+<hr />
+<p><font size="5"><mark>Scroll within autocomplete suggestion docs down</mark></font></p>
+<p><font size="6">^ f</font></p>
+<p><strong>Control f</strong></p>
+<hr />
+<p><font size="5"><mark>Scroll within autocomplete suggestion docs up</mark></font></p>
+<p><font size="6">^ b</font></p>
+<p><strong>Control b</strong></p>
+<hr />
+<h3 id="comments-related-commands"><font color="green">Comments Related Commands</font></h3>
+<p><font size="5"><mark>Comment/Uncomment entire file</mark></font></p>
+<p><font size="6">gc G</font></p>
+<p><strong>gc G</strong></p>
+<hr />
+<p><font size="5"><mark>Comment/Uncomment any motion</mark></font></p>
+<p><font size="6">gc VIM_MOTION</font></p>
+<p><strong>gc VIM_MOTION</strong></p>
+<hr />
+<p><font size="5"><mark>Comment/Uncomment a single line</mark></font></p>
+<p><font size="6">gc c</font></p>
+<p><strong>gc c</strong></p>
+<hr />
+<h3 id="todo-comments-related-commands"><font color="green">TODO-Comments Related Commands</font></h3>
+<p><font size="5"><mark>Jump to next TODO Comment</mark></font></p>
+<p><font size="6">]t</font></p>
+<p><strong>]t</strong></p>
+<hr />
+<p><font size="5"><mark>Jump to previous TODO Comment</mark></font></p>
+<p><font size="6">[t</font></p>
+<p><strong>[t</strong></p>
+<hr />
+<p><font size="5"><mark>Find Todos Comments across project</mark></font></p>
+<p><font size="6">[___] ft</font></p>
+<p><strong>Space ft</strong></p>
+<hr />
+<h3 id="substitution-related-commands"><font color="green">Substitution Related Commands</font></h3>
+<p><font size="5"><mark>Substitute with a motion</mark></font></p>
+<p><font size="6">s VIM_MOTION</font></p>
+<p><strong>s VIM_MOTION</strong></p>
+<hr />
+<p><font size="5"><mark>Substitute entire line</mark></font></p>
+<p><font size="6">ss</font></p>
+<p><strong>ss</strong></p>
+<hr />
+<p><font size="5"><mark>Substitute to end of line</mark></font></p>
+<p><font size="6">S</font></p>
+<p><strong>S</strong></p>
+<hr />
+<h3 id="surround-related-commands"><font color="green">Surround Related Commands</font></h3>
+<p><font size="5"><mark>Surround with something</mark></font></p>
+<p><font size="6">ys VIM_MOTION SYMBOL</font></p>
+<p><strong>ys VIM_MOTION SYMBOL</strong> Example - ysiw "</p>
+<hr />
+<p><font size="5"><mark>Delete a surrounding</mark></font></p>
+<p><font size="6">ds SYMBOL</font></p>
+<p><strong>ds SYMBOL</strong> Example - ds "</p>
+<hr />
+<p><font size="5"><mark>Change a surrounding</mark></font></p>
+<p><font size="6">cs OLD_SYMBOL NEW_SYMBOL</font></p>
+<p><strong>cs OLD_SYMBOL NEW_SYMBOL</strong> Example - cs " '</p>
+<hr />
+<p><font size="5"><mark>Delete a surrounding tag</mark></font></p>
+<p><font size="6">dst</font></p>
+<p><strong>dst</strong></p>
+<hr />
+<p><font size="5"><mark>Add a surrounding tag</mark></font></p>
+<p><font size="6">ys VIM_MOTION t NEW_TAG</font></p>
+<p><strong>ys VIM_MOTION t NEW_TAG</strong></p>
+<hr />
+<p><font size="5"><mark>Rename opening and closing tag at same time</mark></font></p>
+<p><font size="6">cst UPDATE_TAG</font></p>
+<p><strong>cst UPDATE_TAG</strong></p>
+<hr />
+<p><font size="5"><mark>Select something inside surrounding and delete or change it</mark></font></p>
+<p><font size="6">vi SURROUND_SYMBOL d/c</font></p>
+<p><strong>vi SURROUND_SYMBOL d/c</strong></p>
+<hr />
+<h3 id="lsp-related-commands"><font color="green">LSP Related Commands</font></h3>
+<p><font size="5"><mark>Open Mason UI</mark></font></p>
+<p><font size="6">:Mason</font></p>
+<p><strong>:Mason</strong></p>
+<hr />
+<p><font size="5"><mark>Install something in Mason</mark></font></p>
+<p><font size="6">i</font></p>
+<p><strong>i</strong></p>
+<hr />
+<p><font size="5"><mark>Delete something in Mason</mark></font></p>
+<p><font size="6">X</font></p>
+<p><strong>X</strong></p>
+<hr />
+<p><font size="5"><mark>Open references in Telescope</mark></font></p>
+<p><font size="6">gR</font></p>
+<p><strong>gR</strong></p>
+<hr />
+<p><font size="5"><mark>Jump to definition</mark></font></p>
+<p><font size="6">gd</font></p>
+<p><strong>gd</strong></p>
+<hr />
+<p><font size="5"><mark>Jump through errors forwards</mark></font></p>
+<p><font size="6">]d</font></p>
+<p><strong>]d</strong></p>
+<hr />
+<p><font size="5"><mark>Jump through errors backwards</mark></font></p>
+<p><font size="6">[d</font></p>
+<p><strong>[d</strong></p>
+<hr />
+<p><font size="5"><mark>Open code actions</mark></font></p>
+<p><font size="6">[___] ca</font></p>
+<p><strong>[___] ca</strong></p>
+<hr />
+<p><font size="5"><mark>Rename in entire project</mark></font></p>
+<p><font size="6">[___] rn</font></p>
+<p><strong>[___] rn</strong></p>
+<hr />
+<p><font size="5"><mark>Show docs for what's under cursor</mark></font></p>
+<p><font size="6">K</font></p>
+<p><strong>K</strong></p>
+<hr />
+<p><font size="5"><mark>Restart LSP</mark></font></p>
+<p><font size="6">[___] rs</font></p>
+<p><strong>Space rs</strong></p>
+<hr />
+<h3 id="trouble-related-commands"><font color="green">Trouble Related Commands</font></h3>
+<p><font size="5"><mark>Open problems pane for current file only</mark></font></p>
+<p><font size="6">[___] xd</font></p>
+<p><strong>Space xd</strong></p>
+<hr />
+<p><font size="5"><mark>Open problems pane for entire project</mark></font></p>
+<p><font size="6">[___] xw</font></p>
+<p><strong>Space xw</strong></p>
+<hr />
+<p><font size="5"><mark>Open problems pane for Todos</mark></font></p>
+<p><font size="6">[___] xt</font></p>
+<p><strong>Space xt</strong></p>
+<hr />
+<h3 id="formatting-related-commands"><font color="green">Formatting Related Commands</font></h3>
+<p><font size="5"><mark>Format selection or entire file</mark></font></p>
+<p><font size="6">[___] mp</font></p>
+<p><strong>Space mp</strong></p>
+<hr />
+<h3 id="linting-related-commands"><font color="green">Linting Related Commands</font></h3>
+<p><font size="5"><mark>Trigger linting for current file</mark></font></p>
+<p><font size="6">[___] l</font></p>
+<p><strong>Space l</strong></p>
+<hr />
+<h3 id="git-related-commands"><font color="green">Git Related Commands</font></h3>
+<p><font size="5"><mark>Go to Next Git hunk</mark></font></p>
+<p><font size="6">]h</font></p>
+<p><strong>]h</strong></p>
+<hr />
+<p><font size="5"><mark>Go to Previous Git hunk</mark></font></p>
+<p><font size="6">[h</font></p>
+<p><strong>[h</strong></p>
+<hr />
+<p><font size="5"><mark>Stage a hunk</mark></font></p>
+<p><font size="6">[___] hs</font></p>
+<p><strong>Space hs</strong></p>
+<hr />
+<p><font size="5"><mark>Reset a hunk</mark></font></p>
+<p><font size="6">[___] hr</font></p>
+<p><strong>Space hr</strong></p>
+<hr />
+<p><font size="5"><mark>Stage current buffer</mark></font></p>
+<p><font size="6">[___] hS</font></p>
+<p><strong>Space hS</strong></p>
+<hr />
+<p><font size="5"><mark>Reset current buffer</mark></font></p>
+<p><font size="6">[___] hR</font></p>
+<p><strong>Space hR</strong></p>
+<hr />
+<p><font size="5"><mark>Undo staged hunk</mark></font></p>
+<p><font size="6">[___] hu</font></p>
+<p><strong>Space hu</strong></p>
+<hr />
+<p><font size="5"><mark>Preview hunk</mark></font></p>
+<p><font size="6">[___] hp</font></p>
+<p><strong>Space hp</strong></p>
+<hr />
+<p><font size="5"><mark>Toggle line blame</mark></font></p>
+<p><font size="6">[___] hb</font></p>
+<p><strong>Space hb</strong></p>
+<hr />
+<p><font size="5"><mark>Toggle diff in current buffer</mark></font></p>
+<p><font size="6">[___] hd</font></p>
+<p><strong>Space hd</strong></p>
+<hr />
+<h3 id="git-related-commands_1"><font color="green">Git Related Commands</font></h3>
+<p><font size="5"><mark>Open lazy git</mark></font></p>
+<p><font size="6">[___] lg</font></p>
+<p><strong>Space lg</strong></p>
+<hr />
+<p><font size="5"><mark>Create new branch in lazy git</mark></font></p>
+<p><font size="6">n</font></p>
+<p><strong>n</strong></p>
+<hr />
+<p><font size="5"><mark>Stage/Unstage single lazy git</mark></font></p>
+<p><font size="6">[___]</font></p>
+<p><strong>Space</strong></p>
+<hr />
+<p><font size="5"><mark>Stage all files in lazy git</mark></font></p>
+<p><font size="6">a</font></p>
+<p><strong>a</strong></p>
+<hr />
+<p><font size="5"><mark>Discard a file in lazy git</mark></font></p>
+<p><font size="6">dx</font></p>
+<p><strong>dx</strong></p>
+<hr />
+<p><font size="5"><mark>Write a commit in lazy git</mark></font></p>
+<p><font size="6">c</font></p>
+<p><strong>c</strong></p>
+<hr />
+<p><font size="5"><mark>Pull from a branch in lazy git</mark></font></p>
+<p><font size="6">p</font></p>
+<p><strong>p</strong></p>
+<hr />
+<p><font size="5"><mark>Push to a branch in lazy git</mark></font></p>
+<p><font size="6">P</font></p>
+<p><strong>P</strong></p>
+<hr />
+<p><font size="5"><mark>Close lazy git</mark></font></p>
+<p><font size="6">q</font></p>
+<p><strong>q</strong></p>
+<hr />
+<h3 id="github-copilot-related-commands"><font color="green">Github Copilot Related Commands</font></h3>
+<p><font size="5"><mark>Accept Copilot Suggestion</mark></font></p>
+<p><font size="6">TAB</font></p>
+<p><strong>Tab</strong></p>
+<hr />
+<hr />
+<hr />
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../../Visual%20Studio%20Code/user_snippets/" class="btn btn-neutral float-left" title="MacBook VSCode User Snippets"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../../Visual%20Studio%20Code/keyboard-shortcuts/" class="btn btn-neutral float-right" title="MacBook VSCode Keyboard Shortcuts">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../../Visual%20Studio%20Code/user_snippets/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../../Visual%20Studio%20Code/keyboard-shortcuts/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
