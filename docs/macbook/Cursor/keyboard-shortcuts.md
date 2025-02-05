@@ -1,4 +1,4 @@
-# Mac VS Code Shortcuts
+# Mac Cursor Shortcuts
 
 ## <font color="orange">Legend</font>
 
@@ -13,6 +13,38 @@
 ---
 
 ---
+
+---
+
+<font size="5"><mark>Open Composer</mark></font>
+
+<font size="6">⌘ c o</font>
+
+**Command c o**
+
+---
+
+<font size="5"><mark>Open Chat</mark></font>
+
+<font size="6">⌘ c h</font>
+
+**Command c h**
+
+---
+
+<font size="5"><mark>Open Chat with selected text in Context of pane</mark></font>
+
+<font size="6">⌘ ⇧ l</font>
+
+**Command Shift l**
+
+---
+
+<font size="5"><mark>Open Inline Editing Instructions Pane/mark></font>
+
+<font size="6">⌘ i e</font>
+
+**Command i e**
 
 ---
 
@@ -357,22 +389,6 @@
 <font size="6">^ ⇧ ⌥ ⌘ m</font>
 
 **Control Shift Option Command m**
-
----
-
-<font size="5"><mark>Open Co-Pilot Panel</mark></font>
-
-<font size="6">^ ⇧ ⌥ p &nbsp;&nbsp; ^ ⇧ ⌥ i</font>
-
-**Control Shift Option p &nbsp;&nbsp; Control Shift Option i**
-
----
-
-<font size="5"><mark>Inline Co-Pilot Explain</mark></font>
-
-<font size="6">^ ⇧ ⌥ ;</font>
-
-**Control Shift Option ;**
 
 ---
 

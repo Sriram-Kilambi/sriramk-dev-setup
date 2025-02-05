@@ -5,9 +5,9 @@ nav:
       - MacBook Instructions:
           - Macbook Initial Setup: macbook/initial-setup.md
           - Terminal:
-              - MacBook NeoVim Setup: macbook/terminal/neovim-setup.md
-              - MacBook TMUX Setup: macbook/terminal/tmux-setup.md
-              - MacBook Terminal Keyboard Shortcuts: macbook/terminal/keyboard-shortcuts.md
+              - MacBook NeoVim Setup: macbook/Terminal/neovim-setup.md
+              - MacBook TMUX Setup: macbook/Terminal/tmux-setup.md
+              - MacBook Terminal Keyboard Shortcuts: macbook/Terminal/keyboard-shortcuts.md
           - Visual Studio Code:
               - MacBook VSCode Setup: macbook/Visual Studio Code/vscode-setup.md
               - MacBook VSCode Extensions List: macbook/Visual Studio Code/extensions.md
@@ -16,7 +16,16 @@ nav:
               - MacBook VSCode Keybindings JSON: macbook/Visual Studio Code/keybindings.md
               - MacBook VSCode Themes & Icons: macbook/Visual Studio Code/themes.md
               - MacBook VSCode User Snippets: macbook/Visual Studio Code/user_snippets.md
+          - Cursor:
+              - MacBook Cursor Setup: macbook/Cursor/cursor-setup.md
+              - MacBook Cursor Extensions List: macbook/Cursor/extensions.md
+              - MacBook Cursor Keyboard Shortcuts: macbook/Cursor/keyboard-shortcuts.md
+              - MacBook Cursor Settings JSON: macbook/Cursor/settings.md
+              - MacBook Cursor Keybindings JSON: macbook/Cursor/keybindings.md
+              - MacBook Cursor Themes & Icons: macbook/Cursor/themes.md
+              - MacBook Cursor User Snippets: macbook/Cursor/user_snippets.md
   - Daily Keyboard Shortcuts:
-      - MacBook Terminal Keyboard Shortcuts: macbook/terminal/keyboard-shortcuts.md
+      - MacBook Terminal Keyboard Shortcuts: macbook/Terminal/keyboard-shortcuts.md
       - MacBook VSCode Keyboard Shortcuts: macbook/Visual Studio Code/keyboard-shortcuts.md
+      - MacBook Cursor Keyboard Shortcuts: macbook/Cursor/keyboard-shortcuts.md
 theme: readthedocs

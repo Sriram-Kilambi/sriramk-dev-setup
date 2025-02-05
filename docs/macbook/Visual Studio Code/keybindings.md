@@ -183,7 +183,7 @@
     "command": "-workbench.action.focusBelowGroup"
   },
   {
-    "key": "cmd+h",
+    "key": "alt+cmd+h",
     "command": "editor.action.startFindReplaceAction",
     "when": "editorFocus || editorIsOpen"
   },
@@ -261,6 +261,36 @@
   {
     "key": "alt+z",
     "command": "-editor.action.toggleWordWrap"
+  },
+  {
+    "key": "shift+alt+cmd+b",
+    "command": "bookmarks.toggle",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+cmd+k",
+    "command": "-bookmarks.toggle",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+cmd+,",
+    "command": "bookmarks.jumpToPrevious",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+cmd+j",
+    "command": "-bookmarks.jumpToPrevious",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+cmd+.",
+    "command": "bookmarks.jumpToNext",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+cmd+l",
+    "command": "-bookmarks.jumpToNext",
+    "when": "editorTextFocus"
   }
 ]
 ```
