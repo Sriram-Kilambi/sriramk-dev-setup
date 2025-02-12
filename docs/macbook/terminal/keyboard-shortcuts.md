@@ -1325,3 +1325,41 @@ Copy stuff like Vim with v and y
 ---
 
 ---
+
+### <font color="green">Harpoon Related Commands</font>
+
+<font size="5"><mark>Mark or add a file to Harpoon</mark></font>
+
+<font size="6">[___] hm</font>
+
+**Space hm**
+
+---
+
+<font size="5"><mark>Jump to next marked file</mark></font>
+
+<font size="6">^ y</font>
+
+**Control y**
+
+---
+
+<font size="5"><mark>Jump to previous marked file</mark></font>
+
+<font size="6">^ t</font>
+
+**Control t**
+
+---
+
+<font size="5"><mark>Open Harpoon Menu</mark></font>
+
+<font size="6">[___] ha</font>
+
+**Space ha**
+
+---
+
+---
+
+---
