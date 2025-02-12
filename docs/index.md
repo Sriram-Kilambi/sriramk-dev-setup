@@ -3,6 +3,7 @@
 ## How to setup new system for web development
 
 <a href="https://github.com/Sriram-Kilambi/My-Developer-Setup">
+  My-Developer-Setup Github Repository -
   <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" width="50" height="50">  
 </a>
 
@@ -10,7 +11,7 @@
 
 OS - Macbook (Preferrably) or Linux
 
-Code Editor - Visual Studio Code
+Code Editor - Visual Studio Code / Cursor / NeoVim
 
 Terminal - iTerm2
 
