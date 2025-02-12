@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href="../../../img/favicon.ico" />
-    <title>MacBook NeoVim Setup - Sriram Developer Setup</title>
+    <title>MacBook Cursor Extensions List - Sriram Developer Setup</title>
     <link rel="stylesheet" href="../../../css/theme.css" />
     <link rel="stylesheet" href="../../../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "MacBook NeoVim Setup";
-        var mkdocs_page_input_path = "macbook/Terminal/neovim-setup.md";
+        var mkdocs_page_name = "MacBook Cursor Extensions List";
+        var mkdocs_page_input_path = "macbook/Cursor/extensions.md";
         var mkdocs_page_url = null;
       </script>
     
@@ -49,15 +49,13 @@
     <ul class="current">
                 <li class="toctree-l2"><a class="reference internal" href="../../initial-setup/">Macbook Initial Setup</a>
                 </li>
-                <li class="toctree-l2 current"><a class="reference internal current" >Terminal</a>
-    <ul class="current">
-                <li class="toctree-l3 current"><a class="reference internal current" href="#">MacBook NeoVim Setup</a>
-    <ul class="current">
-    </ul>
+                <li class="toctree-l2"><a class="reference internal" >Terminal</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../../Terminal/neovim-setup/">MacBook NeoVim Setup</a>
                 </li>
-                <li class="toctree-l3"><a class="reference internal" href="../tmux-setup/">MacBook TMUX Setup</a>
+                <li class="toctree-l3"><a class="reference internal" href="../../Terminal/tmux-setup/">MacBook TMUX Setup</a>
                 </li>
-                <li class="toctree-l3"><a class="reference internal" href="../keyboard-shortcuts/">MacBook Terminal Keyboard Shortcuts</a>
+                <li class="toctree-l3"><a class="reference internal" href="../../Terminal/keyboard-shortcuts/">MacBook Terminal Keyboard Shortcuts</a>
                 </li>
     </ul>
                 </li>
@@ -81,21 +79,27 @@
                 </li>
     </ul>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" >Cursor</a>
-    <ul>
-                <li class="toctree-l3"><a class="reference internal" href="../../Cursor/cursor-setup/">MacBook Cursor Setup</a>
+                <li class="toctree-l2 current"><a class="reference internal current" >Cursor</a>
+    <ul class="current">
+                <li class="toctree-l3"><a class="reference internal" href="../cursor-setup/">MacBook Cursor Setup</a>
                 </li>
-                <li class="toctree-l3"><a class="reference internal" href="../../Cursor/extensions/">MacBook Cursor Extensions List</a>
+                <li class="toctree-l3 current"><a class="reference internal current" href="#">MacBook Cursor Extensions List</a>
+    <ul class="current">
+    <li class="toctree-l4"><a class="reference internal" href="#active-extensions">Active extensions</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#other-extensions">Other extensions</a>
+    </li>
+    </ul>
                 </li>
-                <li class="toctree-l3"><a class="reference internal" href="../../Cursor/keyboard-shortcuts/">MacBook Cursor Keyboard Shortcuts</a>
+                <li class="toctree-l3"><a class="reference internal" href="../keyboard-shortcuts/">MacBook Cursor Keyboard Shortcuts</a>
                 </li>
-                <li class="toctree-l3"><a class="reference internal" href="../../Cursor/settings/">MacBook Cursor Settings JSON</a>
+                <li class="toctree-l3"><a class="reference internal" href="../settings/">MacBook Cursor Settings JSON</a>
                 </li>
-                <li class="toctree-l3"><a class="reference internal" href="../../Cursor/keybindings/">MacBook Cursor Keybindings JSON</a>
+                <li class="toctree-l3"><a class="reference internal" href="../keybindings/">MacBook Cursor Keybindings JSON</a>
                 </li>
-                <li class="toctree-l3"><a class="reference internal" href="../../Cursor/themes/">MacBook Cursor Themes & Icons</a>
+                <li class="toctree-l3"><a class="reference internal" href="../themes/">MacBook Cursor Themes & Icons</a>
                 </li>
-                <li class="toctree-l3"><a class="reference internal" href="../../Cursor/user_snippets/">MacBook Cursor User Snippets</a>
+                <li class="toctree-l3"><a class="reference internal" href="../user_snippets/">MacBook Cursor User Snippets</a>
                 </li>
     </ul>
                 </li>
@@ -104,11 +108,11 @@
               </ul>
               <p class="caption"><span class="caption-text">Daily Keyboard Shortcuts</span></p>
               <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../keyboard-shortcuts/">MacBook Terminal Keyboard Shortcuts</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Terminal/keyboard-shortcuts/">MacBook Terminal Keyboard Shortcuts</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../../Visual%20Studio%20Code/keyboard-shortcuts/">MacBook VSCode Keyboard Shortcuts</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../Cursor/keyboard-shortcuts/">MacBook Cursor Keyboard Shortcuts</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../keyboard-shortcuts/">MacBook Cursor Keyboard Shortcuts</a>
                   </li>
               </ul>
       </div>
@@ -127,8 +131,8 @@
     <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
           <li class="breadcrumb-item">Complete Setup</li>
           <li class="breadcrumb-item">MacBook Instructions</li>
-          <li class="breadcrumb-item">Terminal</li>
-      <li class="breadcrumb-item active">MacBook NeoVim Setup</li>
+          <li class="breadcrumb-item">Cursor</li>
+      <li class="breadcrumb-item active">MacBook Cursor Extensions List</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -137,24 +141,52 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="how-to-install-neovim-and-setup-the-plugins">How to install NeoVim and setup the Plugins</h1>
-<ol>
-<li>
-<p>Install all the required packages as mentioned in "Initial Setup.Md"</p>
-</li>
-<li>
-<p>Copy the .config/nvim folder and it's contents as it is.</p>
-</li>
-<li>
-<p>Open nvim to install all the plugins and confirm everything works as expected.</p>
-</li>
-</ol>
+                <h1 id="cursor-extensions-list">Cursor Extensions List</h1>
+<h2 id="active-extensions">Active extensions</h2>
+<p>advanced-new-file by patbenatar - patbenatar.advanced-new-file</p>
+<p>Auto close tag by Jun Han - formulahendry.auto-close-tag</p>
+<p>Auto Rename tag by Jun Han - formulahendry.auto-rename-tag</p>
+<p>Bookmarks by Alessandro Fragnani - alefragnani.Bookmarks</p>
+<p>CodeSnap by adpyke - adpyke.codesnap</p>
+<p>Color Info by Matt Bierner - bierner.color-info</p>
+<p>Color Highlight by Sergii N - naumovs.color-highlight</p>
+<p>DotEnv by mikestead - mikestead.dotenv</p>
+<p>Es7+ React/Redux/React-Native Snippets by dsznajder - dsznajder.es7-react-js-snippets</p>
+<p>ESLint by Microsoft - dbaeumer.vscode-eslint</p>
+<p>Git History by Don Jayamanne - donjayamanne.githistory</p>
+<p>Gitlens - Git supercharged by GitKraken - eamodio.gitlens</p>
+<p>Github Copilot by Github - GitHub.copilot</p>
+<p>Github Copilot Chat by Github - GitHub.copilot-chat</p>
+<p>GraphQL: Language Feature Support by GraphQL Foundation - GraphQL.vscode-graphql</p>
+<p>GraphQL: Syntax Highlighting by GraphQL Foundation - GraphQL.vscode-graphql-syntax</p>
+<p>Highlight Matching Tag by vincaslt - vincaslt.highlight-matching-tag</p>
+<p>Import cost by Wix - wix.vscode-import-cost</p>
+<p>Indent Rainbow by oderwat - oderwat.indent-rainbow</p>
+<p>Indenticator by SirTori - SirTori.indenticator</p>
+<p>Intellicode by Microsoft - VisualStudioExptTeam.vscodeintellicode</p>
+<p>Intellicode API Usage Examples by Microsoft - VisualStudioExptTeam.intellicode-api-usage-examples</p>
+<p>JSON Tools by Erik Lynd - eriklynd.json-tools</p>
+<p>Night Owl by sarah.drasner - sdras.night-owl</p>
+<p>Peacock by John Papa - johnpapa.vscode-peacock</p>
+<p>Prettier by Prettier - esbenp.prettier-vscode</p>
+<p>Subtle Match Brackets by Rafa Mel - rafamel.subtle-brackets</p>
+<p>SVG Preview by Simon Siefke - SimonSiefke.svg-preview</p>
+<p>SVG Viewer by Dheovani - Dheovani.svg-viewer</p>
+<p>Tailwind CSS Intellisense by Tailwind Labs - bradlc.vscode-tailwindcss</p>
+<p>Python by Microsoft - ms-python.python</p>
+<p>Pylance by Microsoft - ms-python.vscode-pylance</p>
+<p>Python Debugger by Microsoft - ms-python.debugpy</p>
+<p>Black Formatter by Microsoft - ms-python.black-formatter</p>
+<p>Python Indent by Kevin Rose - KevinRose.vsc-python-indent</p>
+<p>Ruff by Astral Software - charliermarsh.ruff</p>
+<h2 id="other-extensions">Other extensions</h2>
+<p>Subtle Match Brackets by Rafa Mel - rafamel.subtle-brackets - Provided in VSCode now</p>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="../../initial-setup/" class="btn btn-neutral float-left" title="Macbook Initial Setup"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-        <a href="../tmux-setup/" class="btn btn-neutral float-right" title="MacBook TMUX Setup">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../cursor-setup/" class="btn btn-neutral float-left" title="MacBook Cursor Setup"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../keyboard-shortcuts/" class="btn btn-neutral float-right" title="MacBook Cursor Keyboard Shortcuts">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -177,10 +209,10 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href="../../initial-setup/" style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="../cursor-setup/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
-      <span><a href="../tmux-setup/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../keyboard-shortcuts/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
