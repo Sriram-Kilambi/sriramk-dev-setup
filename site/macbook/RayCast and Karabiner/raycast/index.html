@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href="../../../img/favicon.ico" />
-    <title>MacBook TMUX Setup - Sriram Developer Setup</title>
+    <title>Setup - Sriram Developer Setup</title>
     <link rel="stylesheet" href="../../../css/theme.css" />
     <link rel="stylesheet" href="../../../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "MacBook TMUX Setup";
-        var mkdocs_page_input_path = "macbook/Terminal/tmux-setup.md";
+        var mkdocs_page_name = "Setup";
+        var mkdocs_page_input_path = "macbook/RayCast and Karabiner/raycast.md";
         var mkdocs_page_url = null;
       </script>
     
@@ -49,23 +49,27 @@
     <ul class="current">
                 <li class="toctree-l2"><a class="reference internal" href="../../initial-setup/">Macbook Initial Setup</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" >RayCast & Karabiner</a>
+                <li class="toctree-l2 current"><a class="reference internal current" >RayCast & Karabiner</a>
+    <ul class="current">
+                <li class="toctree-l3 current"><a class="reference internal current" href="#">Setup</a>
+    <ul class="current">
+    <li class="toctree-l4"><a class="reference internal" href="#karabiner-elements">Karabiner Elements</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#raycast">Raycast</a>
+    </li>
+    </ul>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../keyboard-shortcuts/">Keyboard Shortcuts</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Terminal</a>
     <ul>
-                <li class="toctree-l3"><a class="reference internal" href="../../RayCast%20and%20Karabiner/raycast/">Setup</a>
+                <li class="toctree-l3"><a class="reference internal" href="../../Terminal/neovim-setup/">MacBook NeoVim Setup</a>
                 </li>
-                <li class="toctree-l3"><a class="reference internal" href="../../RayCast%20and%20Karabiner/keyboard-shortcuts/">Keyboard Shortcuts</a>
+                <li class="toctree-l3"><a class="reference internal" href="../../Terminal/tmux-setup/">MacBook TMUX Setup</a>
                 </li>
-    </ul>
-                </li>
-                <li class="toctree-l2 current"><a class="reference internal current" >Terminal</a>
-    <ul class="current">
-                <li class="toctree-l3"><a class="reference internal" href="../neovim-setup/">MacBook NeoVim Setup</a>
-                </li>
-                <li class="toctree-l3 current"><a class="reference internal current" href="#">MacBook TMUX Setup</a>
-    <ul class="current">
-    </ul>
-                </li>
-                <li class="toctree-l3"><a class="reference internal" href="../keyboard-shortcuts/">MacBook Terminal Keyboard Shortcuts</a>
+                <li class="toctree-l3"><a class="reference internal" href="../../Terminal/keyboard-shortcuts/">MacBook Terminal Keyboard Shortcuts</a>
                 </li>
     </ul>
                 </li>
@@ -112,9 +116,9 @@
               </ul>
               <p class="caption"><span class="caption-text">Daily Keyboard Shortcuts</span></p>
               <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../../RayCast%20and%20Karabiner/keyboard-shortcuts/">Keyboard Shortcuts</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../keyboard-shortcuts/">Keyboard Shortcuts</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../keyboard-shortcuts/">MacBook Terminal Keyboard Shortcuts</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Terminal/keyboard-shortcuts/">MacBook Terminal Keyboard Shortcuts</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../../Visual%20Studio%20Code/keyboard-shortcuts/">MacBook VSCode Keyboard Shortcuts</a>
                   </li>
@@ -137,8 +141,8 @@
     <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
           <li class="breadcrumb-item">Complete Setup</li>
           <li class="breadcrumb-item">MacBook Instructions</li>
-          <li class="breadcrumb-item">Terminal</li>
-      <li class="breadcrumb-item active">MacBook TMUX Setup</li>
+          <li class="breadcrumb-item">RayCast & Karabiner</li>
+      <li class="breadcrumb-item active">Setup</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -147,21 +151,147 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="step-to-configure-tmux">Step to configure TMUX</h1>
+                <h1 id="setup-raycast-karabiner-elements-for-window-management">Setup Raycast &amp; Karabiner Elements for Window Management</h1>
+<h2 id="karabiner-elements">Karabiner Elements</h2>
+<h3 id="install">Install</h3>
+<h3 id="karabiner-elements_1"><a href="https://karabiner-elements.pqrs.org/">Karabiner Elements</a></h3>
+<h3 id="setup">Setup</h3>
 <ol>
 <li>
-<p>Install TMUX</p>
+<p>Install Karabiner Elements.</p>
 </li>
 <li>
-<p>Update the .tmux.conf file with the tmux.config in Dev Setup repository</p>
+<p>Open Karabiner Elements.</p>
+</li>
+<li>
+<p>Go to <code>Karabiner Elements</code> &gt; <code>Preferences</code> &gt; <code>Complex Modifications</code>.</p>
+</li>
+<li>
+<p>Click on <code>+</code> button to add new complex modification.</p>
+</li>
+<li>
+<p>Add "Change Caps lock to Hyper Key" rule -</p>
 </li>
 </ol>
+<pre><code>{
+    &quot;description&quot;: &quot;Change caps lock to hyper key&quot;,
+    &quot;manipulators&quot;: [
+        {
+            &quot;from&quot;: {
+                &quot;key_code&quot;: &quot;caps_lock&quot;,
+                &quot;modifiers&quot;: { &quot;optional&quot;: [&quot;any&quot;] }
+            },
+            &quot;to&quot;: [
+                {
+                    &quot;key_code&quot;: &quot;left_shift&quot;,
+                    &quot;modifiers&quot;: [&quot;left_command&quot;, &quot;left_control&quot;, &quot;left_option&quot;]
+                }
+            ],
+            &quot;type&quot;: &quot;basic&quot;
+        }
+    ]
+}
+</code></pre>
+<ol>
+<li>Add "Change Double Tap Right Shift to Caps Lock" rule -</li>
+</ol>
+<pre><code>{
+    &quot;description&quot;: &quot;Change double tap right ⇧ key to caps lock&quot;,
+    &quot;manipulators&quot;: [
+        {
+            &quot;conditions&quot;: [
+                {
+                    &quot;name&quot;: &quot;right_shift pressed&quot;,
+                    &quot;type&quot;: &quot;variable_if&quot;,
+                    &quot;value&quot;: 1
+                }
+            ],
+            &quot;from&quot;: {
+                &quot;key_code&quot;: &quot;right_shift&quot;,
+                &quot;modifiers&quot;: { &quot;optional&quot;: [&quot;any&quot;] }
+            },
+            &quot;to&quot;: [{ &quot;key_code&quot;: &quot;caps_lock&quot; }],
+            &quot;type&quot;: &quot;basic&quot;
+        },
+        {
+            &quot;from&quot;: {
+                &quot;key_code&quot;: &quot;right_shift&quot;,
+                &quot;modifiers&quot;: { &quot;optional&quot;: [&quot;any&quot;] }
+            },
+            &quot;to&quot;: [
+                {
+                    &quot;set_variable&quot;: {
+                        &quot;name&quot;: &quot;right_shift pressed&quot;,
+                        &quot;value&quot;: 1
+                    }
+                },
+                { &quot;key_code&quot;: &quot;right_shift&quot; }
+            ],
+            &quot;to_delayed_action&quot;: {
+                &quot;to_if_canceled&quot;: [
+                    {
+                        &quot;set_variable&quot;: {
+                            &quot;name&quot;: &quot;right_shift pressed&quot;,
+                            &quot;value&quot;: 0
+                        }
+                    }
+                ],
+                &quot;to_if_invoked&quot;: [
+                    {
+                        &quot;set_variable&quot;: {
+                            &quot;name&quot;: &quot;right_shift pressed&quot;,
+                            &quot;value&quot;: 0
+                        }
+                    }
+                ]
+            },
+            &quot;type&quot;: &quot;basic&quot;
+        }
+    ]
+}
+</code></pre>
+<h2 id="raycast">Raycast</h2>
+<h3 id="install_1">Install</h3>
+<h3 id="raycast_1"><a href="https://www.raycast.com/">Raycast</a></h3>
+<ol>
+<li>
+<p>Disable Command + Space shortcut which used to show Spotlight search.</p>
+</li>
+<li>
+<p>Update RayCast Default Keybinding to Command + Space.</p>
+</li>
+<li>
+<p>Under RayCast Extension Settings, add the application shortcuts with Hyper key as the trigger.</p>
+</li>
+</ol>
+<p><code></p>
+<p>a. Chrome - <code>Hyper + b</code></p>
+<p>b. Notion - <code>Hyper + n</code></p>
+<p>c. Cursor - <code>Hyper + e</code></p>
+<p>d. iTerm - <code>Hyper + t</code></p>
+<p>e. Postman - <code>Hyper + p</code></p>
+<p>f. Notes - <code>Hyper + o</code></p>
+<p>g. Finder - <code>Hyper + f</code></p>
+<p>h. Apple Music - <code>Hyper + m</code></p>
+<p>i. Books - <code>Hyper + r</code></p>
+<p>j. Adobe Reader - <code>Hyper + a</code></p>
+<p>k. Visual Studio Code - <code>Hyper + v</code></p>
+<ol>
+<li>Under RayCast Extension Settings, under "Window Management" tab, add the following rules -</li>
+</ol>
+<p><code></p>
+<p>a. Move to Top Half - <code>Option + k</code></p>
+<p>b. Move to Bottom Half - <code>Option + j</code></p>
+<p>c. Move to Left Half - <code>Option + h</code></p>
+<p>d. Move to Right Half - <code>Option + l</code></p>
+<p>e. Maximize - <code>Option + m</code></p>
+<p></code></p>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="../neovim-setup/" class="btn btn-neutral float-left" title="MacBook NeoVim Setup"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-        <a href="../keyboard-shortcuts/" class="btn btn-neutral float-right" title="MacBook Terminal Keyboard Shortcuts">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../../initial-setup/" class="btn btn-neutral float-left" title="Macbook Initial Setup"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../keyboard-shortcuts/" class="btn btn-neutral float-right" title="Keyboard Shortcuts">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -184,7 +314,7 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href="../neovim-setup/" style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="../../initial-setup/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
       <span><a href="../keyboard-shortcuts/" style="color: #fcfcfc">Next &raquo;</a></span>

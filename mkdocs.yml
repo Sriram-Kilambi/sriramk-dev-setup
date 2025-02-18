@@ -4,6 +4,9 @@ nav:
   - Complete Setup:
       - MacBook Instructions:
           - Macbook Initial Setup: macbook/initial-setup.md
+          - RayCast & Karabiner: 
+              - Setup: macbook/RayCast and Karabiner/raycast.md
+              - Keyboard Shortcuts: macbook/RayCast and Karabiner/keyboard-shortcuts.md
           - Terminal:
               - MacBook NeoVim Setup: macbook/Terminal/neovim-setup.md
               - MacBook TMUX Setup: macbook/Terminal/tmux-setup.md
@@ -26,6 +29,7 @@ nav:
               - MacBook Cursor Themes & Icons: macbook/Cursor/themes.md
               - MacBook Cursor User Snippets: macbook/Cursor/user_snippets.md
   - Daily Keyboard Shortcuts:
+      - MacBook RayCast & Karabiner Keyboard Shortcuts: macbook/RayCast and Karabiner/keyboard-shortcuts.md
       - MacBook Terminal Keyboard Shortcuts: macbook/Terminal/keyboard-shortcuts.md
       - MacBook VSCode Keyboard Shortcuts: macbook/Visual Studio Code/keyboard-shortcuts.md
       - MacBook Cursor Keyboard Shortcuts: macbook/Cursor/keyboard-shortcuts.md
