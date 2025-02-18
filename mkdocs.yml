@@ -5,8 +5,8 @@ nav:
       - MacBook Instructions:
           - Macbook Initial Setup: macbook/initial-setup.md
           - RayCast & Karabiner: 
-              - Setup: macbook/RayCast and Karabiner/raycast.md
-              - Keyboard Shortcuts: macbook/RayCast and Karabiner/keyboard-shortcuts.md
+              - MacBook RayCast & Karabiner Setup: macbook/RayCast and Karabiner/raycast.md
+              - MacBook RayCast & Karabiner Keyboard Shortcuts: macbook/RayCast and Karabiner/keyboard-shortcuts.md
           - Terminal:
               - MacBook NeoVim Setup: macbook/Terminal/neovim-setup.md
               - MacBook TMUX Setup: macbook/Terminal/tmux-setup.md
