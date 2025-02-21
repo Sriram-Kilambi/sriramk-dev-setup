@@ -15,11 +15,11 @@
     "when": "editorFocus && !composerBarIsVisible"
   },
   {
-    "key": "cmd+c cmd+o",
+    "key": "ctrl+shift+c ctrl+shift+o",
     "command": "workbench.panel.composerViewPane2"
   },
   {
-    "key": "cmd+c cmd+h",
+    "key": "ctrl+shift+c ctrl+shift+h",
     "command": "workbench.panel.aichat"
   },
   {

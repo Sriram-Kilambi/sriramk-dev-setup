@@ -18,17 +18,17 @@
 
 <font size="5"><mark>Open Composer</mark></font>
 
-<font size="6">⌘ c o</font>
+<font size="6">^ ⇧ c o</font>
 
-**Command c o**
+**Ctrl Shift c o**
 
 ---
 
 <font size="5"><mark>Open Chat</mark></font>
 
-<font size="6">⌘ c h</font>
+<font size="6">^ ⇧ c h</font>
 
-**Command c h**
+**Ctrl Shift c h**
 
 ---
 
