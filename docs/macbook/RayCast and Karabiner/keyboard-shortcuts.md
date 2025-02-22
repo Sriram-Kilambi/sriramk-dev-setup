@@ -116,41 +116,41 @@
 
 <font size="5"><mark>Move to Top Half</mark></font>
 
-<font size="6">◆ k</font>
+<font size="6">⌥ k</font>
 
-**Hyper k**
+**Option k**
 
 ---
 
 <font size="5"><mark>Move to Bottom Half</mark></font>
 
-<font size="6">◆ j</font>
+<font size="6">⌥ j</font>
 
-**Hyper j**
+**Option j**
 
 ---
 
 <font size="5"><mark>Move to Left Half</mark></font>
 
-<font size="6">◆ h</font>
+<font size="6">⌥ h</font>
 
-**Hyper h**
+**Option h**
 
 ---
 
 <font size="5"><mark>Move to Right Half</mark></font>
 
-<font size="6">◆ l</font>
+<font size="6">⌥ l</font>
 
-**Hyper l**
+**Option l**
 
 ---
 
 <font size="5"><mark>Maximize</mark></font>
 
-<font size="6">◆ m</font>
+<font size="6">⌥ m</font>
 
-**Hyper m**
+**Option m**
 
 ---
 

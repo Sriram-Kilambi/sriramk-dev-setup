@@ -33,4 +33,4 @@ nav:
       - MacBook Terminal Keyboard Shortcuts: macbook/Terminal/keyboard-shortcuts.md
       - MacBook VSCode Keyboard Shortcuts: macbook/Visual Studio Code/keyboard-shortcuts.md
       - MacBook Cursor Keyboard Shortcuts: macbook/Cursor/keyboard-shortcuts.md
-theme: readthedocs
+theme: mkdocs

@@ -504,6 +504,14 @@ Copy stuff like Vim with v and y
 
 ---
 
+<font size="5"><mark>Move Screen Up/Down One Line W/o Moving Cursor</mark></font>
+
+<font size="6">^ y/e</font>
+
+**Control y/e**
+
+---
+
 ### <font color="green">Macro Related Commands</font>
 
 <font size="5"><mark>Recording a new macro</mark></font>

@@ -1,0 +1,88 @@
+{
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "breadcrumbs.enabled": true,
+  "debug.confirmOnExit": "always",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorStyle": "block",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontSize": 16,
+  "editor.formatOnSave": true,
+  "editor.letterSpacing": 0.5,
+  "editor.matchBrackets": "never",
+  "editor.minimap.enabled": false,
+  "editor.minimap.scale": 3,
+  "editor.minimap.showSlider": "always",
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "emmet.includeLanguages": {
+    "html": "html",
+    "javascript": "javascriptreact"
+  },
+  "files.autoSave": "afterDelay",
+  "git.postCommitCommand": "push",
+  "git.showPushSuccessNotification": true,
+  "highlight-matching-tag.styles": {
+    "opening": {
+      "name": {
+        "surround": "#a74490",
+        "underline": "#a74490",
+        "highlight": "#a31232"
+      }
+    },
+    "closing": {
+      "name": {
+        "surround": "#a74490",
+        "underline": "#a74490",
+        "highlight": "#a31232"
+      }
+    }
+  },
+  "scm.defaultViewMode": "tree",
+  "subtleBrackets.style": {
+    "borderWidth": "1px",
+    "borderStyle": "solid solid solid solid",
+    "borderColor": "#a74490"
+  },
+  "terminal.integrated.confirmOnExit": "always",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "window.confirmBeforeClose": "always",
+  "window.newWindowDimensions": "maximized",
+  "window.title": "${dirty}${rootName}${separator}${activeEditorShort}",
+  "workbench.colorTheme": "Night Owl",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.pinnedTabSizing": "normal",
+  "workbench.sideBar.location": "right",
+  "zenMode.centerLayout": true,
+  "zenMode.hideLineNumbers": false,
+  "zenMode.hideTabs": false,
+  "workbench.colorCustomizations": {
+    "[Night Owl]": {
+      "tab.activeBackground": "#6a2601",
+      "tab.activeForeground": "#ffffff",
+      "tab.inactiveForeground": "#ffffff",
+      "tab.border": "#f2c338",
+      "tab.activeBorder": "#f2c338",
+      "tab.activeBorderTop": "#f2c338",
+      "editorGroupHeader.tabsBorder": "#f2c338",
+      "editorGroupHeader.border": "#f2c338"
+    }
+  },
+  "bookmarks.navigateThroughAllFiles": false,
+  "workbench.editor.pinnedTabsOnSeparateRow": true,
+  "workbench.activityBar.location": "top",
+  "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "maximize",
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "gitlens.mode.active": "review",
+  "editor.renderWhitespace": "all"
+}
