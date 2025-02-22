@@ -1,25 +1,5 @@
 # Mac Terminal Shortcuts
 
-## <font color="orange">Legend</font>
-
-<font size="6">Ctrl - ^</font>
-
-<font size="6">Shift - ⇧</font>
-
-<font size="6">Option - ⌥</font>
-
-<font size="6">Command - ⌘</font>
-
-<font size="6">Space - [___]</font>
-
-<font size="6">Tab - TAB</font>
-
----
-
----
-
----
-
 ## <font color="orange">Direct Git related shortcuts</font>
 
 <font size="5"><mark>git status</mark></font>

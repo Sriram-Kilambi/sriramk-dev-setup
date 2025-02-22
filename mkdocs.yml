@@ -1,6 +1,7 @@
 site_name: Sriram Developer Setup
 nav:
   - Home: index.md
+  - Legend: legend.md
   - Complete Setup:
       - MacBook Instructions:
           - Macbook Initial Setup: macbook/initial-setup.md

@@ -1,21 +1,5 @@
 # Mac Cursor Shortcuts
 
-## <font color="orange">Legend</font>
-
-<font size="4">Ctrl - ^</font>
-
-<font size="4">Shift - ⇧</font>
-
-<font size="4">Option - ⌥</font>
-
-<font size="4">Command - ⌘</font>
-
----
-
----
-
----
-
 <font size="5"><mark>Open Composer</mark></font>
 
 <font size="6">^ ⇧ c o</font>

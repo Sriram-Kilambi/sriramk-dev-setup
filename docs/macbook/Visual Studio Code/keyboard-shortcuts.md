@@ -1,21 +1,5 @@
 # Mac VS Code Shortcuts
 
-## <font color="orange">Legend</font>
-
-<font size="4">Ctrl - ^</font>
-
-<font size="4">Shift - ⇧</font>
-
-<font size="4">Option - ⌥</font>
-
-<font size="4">Command - ⌘</font>
-
----
-
----
-
----
-
 <font size="5"><mark>Close window</mark></font>
 
 <font size="6">^ w</font>
