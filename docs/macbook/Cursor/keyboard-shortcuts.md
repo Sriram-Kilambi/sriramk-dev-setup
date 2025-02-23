@@ -4,7 +4,7 @@
 
 <font size="6">^ ⇧ c o</font>
 
-**Ctrl Shift c o**
+**Control Shift c o**
 
 ---
 
@@ -12,7 +12,7 @@
 
 <font size="6">^ ⇧ c h</font>
 
-**Ctrl Shift c h**
+**Control Shift c h**
 
 ---
 
@@ -76,7 +76,7 @@
 
 <font size="6">^ ⇧ Down</font>
 
-**Ctrl Shift Down**
+**Control Shift Down**
 
 ---
 
@@ -84,7 +84,7 @@
 
 <font size="6">^ ⇧ Up</font>
 
-**Ctrl Shift Up**
+**Control Shift Up**
 
 ---
 
@@ -116,11 +116,11 @@
 
 <font size="6">^ ⇧ ⌥ f</font>
 
-**Ctrl Shift Option f**
+**Control Shift Option f**
 
 ---
 
-<font size="5"><mark>Open Terminal</mark></font>
+<font size="5"><mark>Open Bottom Panel</mark></font>
 
 <font size="6">⌘ j</font>
 
@@ -132,7 +132,7 @@
 
 <font size="6">^ ⌘ j</font>
 
-**Ctrl Command j**
+**Control Command j**
 
 ---
 
@@ -188,7 +188,7 @@
 
 <font size="6">^ g</font>
 
-**Ctrl g**
+**Control g**
 
 ---
 
@@ -196,7 +196,7 @@
 
 <font size="6">^ t</font>
 
-**Ctrl t**
+**Control t**
 
 ---
 
@@ -204,7 +204,7 @@
 
 <font size="6">^ ⇧ ⌥ ⌘ &nbsp;&nbsp; Up/Down/Left/Right</font>
 
-**Ctrl Shift Option Command &nbsp;&nbsp; Up/Down/Left/Right**
+**Control Shift Option Command &nbsp;&nbsp; Up/Down/Left/Right**
 
 ---
 
@@ -260,7 +260,7 @@
 
 <font size="6">^ `</font>
 
-**Ctrl `**
+**Control `**
 
 ---
 
@@ -290,7 +290,7 @@
 
 <font size="5"><mark>Bookmark Line</mark></font>
 
-<font size="6"⇧ ⌥ ⌘ b</font>
+<font size="6">⇧ ⌥ ⌘ b</font>
 
 **Shift Option Command b**
 
@@ -332,7 +332,7 @@
 
 <font size="6">^ ⌥ ⌘ [</font>
 
-**Ctrl Option Command [**
+**Control Option Command [**
 
 ---
 
@@ -340,7 +340,7 @@
 
 <font size="6">^ ⌥ ⌘ ]</font>
 
-**Ctrl Option Command ]**
+**Control Option Command ]**
 
 ---
 
@@ -348,7 +348,7 @@
 
 <font size="6">^ ⇧ d</font>
 
-**Ctrl Shift d**
+**Control Shift d**
 
 ---
 
@@ -370,9 +370,9 @@
 
 <font size="5"><mark>Maximize/Minimize Editor Group</mark></font>
 
-<font size="6">^ ⇧ ⌥ ⌘ m</font>
+<font size="6">⇧ ⌥ ⌘ m</font>
 
-**Control Shift Option Command m**
+**Shift Option Command m**
 
 ---
 

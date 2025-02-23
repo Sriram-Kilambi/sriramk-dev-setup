@@ -245,7 +245,7 @@
     "when": "editorHasDefinitionProvider && editorTextFocus"
   },
   {
-    "key": "ctrl+shift+alt+cmd+m",
+    "key": "shift+alt+cmd+m",
     "command": "workbench.action.toggleMaximizeEditorGroup",
     "when": "editorPartMaximizedEditorGroup || editorPartMultipleEditorGroups"
   },

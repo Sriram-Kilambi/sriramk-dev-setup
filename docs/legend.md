@@ -1,6 +1,6 @@
 # <font color="orange">Legend</font>
 
-<font size="6">Ctrl - ^</font>
+<font size="6">Control - ^</font>
 
 <font size="6">Shift - ⇧</font>
 
