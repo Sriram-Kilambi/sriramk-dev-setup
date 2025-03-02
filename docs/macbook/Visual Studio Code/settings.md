@@ -71,7 +71,6 @@
   "window.title": "${dirty}${rootName}${separator}${activeEditorShort}",
   "window.zoomLevel": 0,
   "workbench.colorTheme": "Night Owl",
-  "workbench.editor.enablePreview": false,
   "workbench.editor.pinnedTabSizing": "normal",
   "workbench.sideBar.location": "right",
   "zenMode.centerLayout": false,
@@ -99,7 +98,17 @@
   "diffEditor.hideUnchangedRegions.enabled": true,
   "window.customTitleBarVisibility": "windowed",
   "gitlens.mode.active": "review",
-  "editor.renderWhitespace": "all"
+  "editor.renderWhitespace": "all",
+  "workbench.editor.enablePreview": false,
+  "editor.rulers": [88, 128],
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "always",
+      "source.fixAll": "always"
+    },
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  }
 }
 ```
 </code>

@@ -146,7 +146,7 @@
 
 <font size="6">^ d</font>
 
-**Ctrl d**
+**Control d**
 
 ---
 
@@ -391,6 +391,22 @@ Copy stuff like Vim with v and y
 <font size="6">:NUMBER</font>
 
 **:NUMBER**
+
+---
+
+<font size="5"><mark>Move current line up</mark></font>
+
+<font size="6">ddkP</font>
+
+**ddkP**
+
+---
+
+<font size="5"><mark>Move current line down</mark></font>
+
+<font size="6">ddp</font>
+
+**ddp**
 
 ---
 

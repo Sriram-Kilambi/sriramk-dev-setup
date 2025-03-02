@@ -100,14 +100,14 @@
   "gitlens.mode.active": "review",
   "editor.renderWhitespace": "all",
   "workbench.editor.enablePreview": false,
-  "editor.rulers": [88, 120],
+  "editor.rulers": [88, 128],
   "[python]": {
     "editor.codeActionsOnSave": {
       "source.organizeImports": "always",
       "source.fixAll": "always"
     },
     "editor.defaultFormatter": "ms-python.black-formatter",
-    "editor.formatOn": true
+    "editor.formatOnSave": true
   }
 }
 ```

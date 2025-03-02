@@ -31,6 +31,7 @@ nav:
               - MacBook Cursor Keybindings JSON: macbook/Cursor/keybindings.md
               - MacBook Cursor Themes & Icons: macbook/Cursor/themes.md
               - MacBook Cursor User Snippets: macbook/Cursor/user_snippets.md
+              - MacBook Cursor Customise Layout: macbook/Cursor/customise-layout.md
   - Daily Keyboard Shortcuts:
       - MacBook RayCast & Karabiner Keyboard Shortcuts: daily_shortcuts/raycast.md
       - MacBook Terminal Keyboard Shortcuts: daily_shortcuts/terminal.md

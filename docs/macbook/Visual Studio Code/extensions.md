@@ -34,6 +34,8 @@ GraphQL: Language Feature Support by GraphQL Foundation - GraphQL.vscode-graphql
 
 GraphQL: Syntax Highlighting by GraphQL Foundation - GraphQL.vscode-graphql-syntax
 
+Graphviz (dot) language support for Visual Studio Code by Stephanvs - Stephanvs.dot
+
 Highlight Matching Tag by vincaslt - vincaslt.highlight-matching-tag
 
 Import cost by Wix - wix.vscode-import-cost
@@ -62,7 +64,18 @@ SVG Viewer by Dheovani - Dheovani.svg-viewer
 
 Tailwind CSS Intellisense by Tailwind Labs - bradlc.vscode-tailwindcss 
 
+Python by Microsoft - ms-python.python
+
+Pylance by Microsoft - ms-python.vscode-pylance
+
+Python Debugger by Microsoft - ms-python.debugpy
+
+Black Formatter by Microsoft - ms-python.black-formatter
+
+Python Indent by Kevin Rose - KevinRose.vsc-python-indent
+
+Ruff by Astral Software - charliermarsh.ruff
+
 ## Other extensions
 
 Subtle Match Brackets by Rafa Mel - rafamel.subtle-brackets - Provided in VSCode now
-
