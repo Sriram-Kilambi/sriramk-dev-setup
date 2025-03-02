@@ -1242,7 +1242,7 @@ Copy stuff like Vim with v and y
 
 ---
 
-### <font color="green">Git Related Commands</font>
+### <font color="green">LazyGit Related Commands</font>
 
 <font size="5"><mark>Open lazy git</mark></font>
 
