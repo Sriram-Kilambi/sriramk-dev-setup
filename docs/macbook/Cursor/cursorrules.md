@@ -1,0 +1,1 @@
+- Always read and follow the rules inside `.cursor/rules/rule-claude-sonnet-37.mdc`

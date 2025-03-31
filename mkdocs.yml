@@ -32,6 +32,12 @@ nav:
               - MacBook Cursor Themes & Icons: macbook/Cursor/themes.md
               - MacBook Cursor User Snippets: macbook/Cursor/user_snippets.md
               - MacBook Cursor Customise Layout: macbook/Cursor/customise-layout.md
+              - MacBook Cursor Rules and MCP: macbook/Cursor/rules-and-mcp.md
+              - MacBook Cursor PRD Template: macbook/Cursor/PRD.template.md
+              - MacBook Cursor Sonnet 3.7 Rule: macbook/Cursor/rule-claude-sonnet-37.mdc.md
+              - MacBook Cursor .cursorrules: macbook/Cursor/cursorrules.md
+              - MacBook MCP Servers Installation: macbook/Cursor/mcp-installation-steps.md
+              - MacBook MCP Servers MCP JSON: macbook/Cursor/mcp.md
   - Daily Keyboard Shortcuts:
       - MacBook RayCast & Karabiner Keyboard Shortcuts: daily_shortcuts/raycast.md
       - MacBook Terminal Keyboard Shortcuts: daily_shortcuts/terminal.md

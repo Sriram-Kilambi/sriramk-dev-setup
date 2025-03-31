@@ -93,6 +93,10 @@
     </li>
     <li class="toctree-l4"><a class="reference internal" href="#setup-default-terminal-in-vscode-to-be-iterm-by-adding-these-lines-in-settingsjson">Setup Default Terminal in VSCode to be iTerm by adding these lines in settings.json</a>
     </li>
+    <li class="toctree-l4"><a class="reference internal" href="#setup-re-use-previous-sessions-working-directory">Setup re-use previous session's working directory</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#setup-your-favorite-background-image-to-iterm">Setup your favorite background image to iTerm</a>
+    </li>
     <li class="toctree-l4"><a class="reference internal" href="#install-neovim">Install NeoVim</a>
     </li>
     <li class="toctree-l4"><a class="reference internal" href="#install-ripgrep">Install Ripgrep</a>
@@ -102,6 +106,8 @@
     <li class="toctree-l4"><a class="reference internal" href="#install-tmux">Install TMUX</a>
     </li>
     <li class="toctree-l4"><a class="reference internal" href="#install-tmux-plugin-manager">Install TMUX Plugin Manager</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#add-cursor-mcp-servers-aliases">Add Cursor MCP Servers Aliases</a>
     </li>
         </ul>
     </li>
@@ -162,6 +168,18 @@
                 <li class="toctree-l3"><a class="reference internal" href="../Cursor/user_snippets/">MacBook Cursor User Snippets</a>
                 </li>
                 <li class="toctree-l3"><a class="reference internal" href="../Cursor/customise-layout/">MacBook Cursor Customise Layout</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Cursor/rules-and-mcp/">MacBook Cursor Rules and MCP</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Cursor/PRD.template/">MacBook Cursor PRD Template</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Cursor/rule-claude-sonnet-37.mdc/">MacBook Cursor Sonnet 3.7 Rule</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Cursor/cursorrules/">MacBook Cursor .cursorrules</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Cursor/mcp-installation-steps/">MacBook MCP Servers Installation</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Cursor/mcp/">MacBook MCP Servers MCP JSON</a>
                 </li>
     </ul>
                 </li>
@@ -262,6 +280,7 @@
 <p>Select Font -&gt; MesloLGS Nerd Font Mono</p>
 <p>Check Use a different font for non-ASCII text</p>
 <p>Select Non-Ascii Font -&gt; MesloLGS Nerd Font Mono</p>
+<p>Set Font Size to 18 for both 'Font' and 'Non-Ascii' Font</p>
 <hr />
 <h3 id="install-snazzy-theme-for-iterm2-and-add-it-to-iterm-presets">Install Snazzy Theme for iTerm2 and add it to iTerm presets</h3>
 <p>(curl -Ls https://raw.githubusercontent.com/sindresorhus/iterm2-snazzy/main/Snazzy.itermcolors &gt; /tmp/Snazzy.itermcolors &amp;&amp; open /tmp/Snazzy.itermcolors)</p>
@@ -286,6 +305,15 @@
 <p>"terminal.explorerKind": "external",</p>
 <p>"terminal.integrated.fontFamily": "MesloLGS Nerd Font Mono"</p>
 <hr />
+<h3 id="setup-re-use-previous-sessions-working-directory">Setup re-use previous session's working directory</h3>
+<p>Go to iTerm Settings -&gt; Profiles -&gt; General -&gt; Working Directory -&gt; Reuse previous session's directory</p>
+<hr />
+<h3 id="setup-your-favorite-background-image-to-iterm">Setup your favorite background image to iTerm</h3>
+<p>Go to iTerm Settings -&gt; Profiles -&gt; Window
+E
+Enable the checkbox under 'Background Image' section and set 'mode' to 'Scale to Fill'</p>
+<p>Adjust Blending at 60</p>
+<hr />
 <h3 id="install-neovim">Install NeoVim</h3>
 <p>brew install neovim</p>
 <hr />
@@ -300,6 +328,13 @@
 <hr />
 <h3 id="install-tmux-plugin-manager">Install TMUX Plugin Manager</h3>
 <p>git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm</p>
+<hr />
+<h3 id="add-cursor-mcp-servers-aliases">Add Cursor MCP Servers Aliases</h3>
+<p>alias githubMCP='npx -y @smithery/cli@latest run @smithery-ai/github --config "{\"githubPersonalAccessToken\":\"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\"}"'</p>
+<p>alias firecrawlMCP='npx -y @smithery/cli@latest run @mendableai/mcp-server-firecrawl --config "{\"fireCrawlApiKey\":\"fc-2f5940f8c5aa4391aa88741e73630b56\"}"'</p>
+<p>alias seqThinkMCP='npx -y @smithery/cli@latest run @smithery-ai/server-sequential-thinking --config "{}"'</p>
+<p>alias browserToolsServer='npx @agentdeskai/browser-tools-server@1.2.0'</p>
+<p>alias browserToolsAgent='npx @agentdeskai/browser-tools-mcp@1.2.0'</p>
 <hr />
               
             </div>

@@ -86,6 +86,30 @@
 
 ---
 
+<font size="5"><mark>Open Whatsapp</mark></font>
+
+<font size="6">◆ w</font>
+
+**Hyper w**
+
+---
+
+<font size="5"><mark>Open Zoom</mark></font>
+
+<font size="6">◆ z</font>
+
+**Hyper z**
+
+---
+
+<font size="5"><mark>Open Super Whisper</mark></font>
+
+<font size="6">◆ s</font>
+
+**Hyper s**
+
+---
+
 ---
 
 ---

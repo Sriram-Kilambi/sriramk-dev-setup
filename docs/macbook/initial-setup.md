@@ -104,6 +104,8 @@ Check Use a different font for non-ASCII text
 
 Select Non-Ascii Font -> MesloLGS Nerd Font Mono
 
+Set Font Size to 18 for both 'Font' and 'Non-Ascii' Font
+
 ---
 
 ### Install Snazzy Theme for iTerm2 and add it to iTerm presets
@@ -152,6 +154,22 @@ PROMPT='%{$fg[blue]%} [%D{%f/%m/%y} %D{%L:%M:%S}] '$PROMPT
 
 ---
 
+### Setup re-use previous session's working directory
+
+Go to iTerm Settings -> Profiles -> General -> Working Directory -> Reuse previous session's directory
+
+---
+
+### Setup your favorite background image to iTerm
+
+Go to iTerm Settings -> Profiles -> Window
+E
+Enable the checkbox under 'Background Image' section and set 'mode' to 'Scale to Fill'
+
+Adjust Blending at 60
+
+---
+
 ### Install NeoVim
 
 brew install neovim
@@ -179,5 +197,19 @@ brew install tmux
 ### Install TMUX Plugin Manager
 
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
+---
+
+### Add Cursor MCP Servers Aliases
+
+alias githubMCP='npx -y @smithery/cli@latest run @smithery-ai/github --config "{\"githubPersonalAccessToken\":\"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\"}"'
+
+alias firecrawlMCP='npx -y @smithery/cli@latest run @mendableai/mcp-server-firecrawl --config "{\"fireCrawlApiKey\":\"fc-2f5940f8c5aa4391aa88741e73630b56\"}"'
+
+alias seqThinkMCP='npx -y @smithery/cli@latest run @smithery-ai/server-sequential-thinking --config "{}"'
+
+alias browserToolsServer='npx @agentdeskai/browser-tools-server@1.2.0'
+
+alias browserToolsAgent='npx @agentdeskai/browser-tools-mcp@1.2.0'
 
 ---
