@@ -291,7 +291,15 @@
     "key": "alt+cmd+l",
     "command": "-bookmarks.jumpToNext",
     "when": "editorTextFocus"
-  }
+},
+{
+    "key": "shift+enter",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": {
+        "text": "\\\r\n"
+    },
+    "when": "terminalFocus"
+}
 ]
 ```
 </code>

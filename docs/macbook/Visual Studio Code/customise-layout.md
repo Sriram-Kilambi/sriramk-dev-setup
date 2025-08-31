@@ -15,14 +15,22 @@
 Primary Side Bar contains -
 
   Explorer
-  Project-wide Search
   Debugger
   Marketplace
   Bookmarks
-  Gitlens
-  Gitlens Inspect
+  Gitlens - Gitlens - Commit Graph, Gitlens Inspect, etc
+  VX Notepad Global Notes
 
 Secondary Side Bar contains -
 
-  Source Control (Git panel)
+  Terminal (Where you run Claude Code)
   Copilot Edits
+
+Bottom Panel Contains - 
+
+  Project-wide Search + VX Notepad Local Notes
+  Source Control (Git panel) + Source Control - Graph
+  Problems
+  Output
+  Debug Console
+  Ports 
