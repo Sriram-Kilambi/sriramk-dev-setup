@@ -108,9 +108,9 @@
 
 1. Disable Command + Space shortcut which used to show Spotlight search.
 
-    a. Go to System Settings -> Keyboard -> Change "Press Globe key to" -> "Change input source"
+   a. Go to System Settings -> Keyboard -> Change "Press Globe key to" -> "Change input source"
 
-    b. Go to System Settings -> Keyboard -> Keyboard Shortcuts -> Spotlight -> UNCHECK "Show Spotlight Search"
+   b. Go to System Settings -> Keyboard -> Keyboard Shortcuts -> Spotlight -> UNCHECK "Show Spotlight Search"
 
 2. Update RayCast Default Keybinding to Command + Space.
 
@@ -145,6 +145,10 @@ l. Whatsapp - `Hyper + w`
 m. Zoom - `Hyper + z`
 
 n. Super Whisper - `Hyper + s`
+
+o. Express VPN - `Hyper + x`
+
+p. Discord - `Hyper + d`
 
 4. Under RayCast Extension Settings, under "Window Management" tab, add the following rules -
 

@@ -110,6 +110,22 @@
 
 ---
 
+<font size="5"><mark>Open ExpressVPN</mark></font>
+
+<font size="6">◆ x</font>
+
+**Hyper x**
+
+---
+
+<font size="5"><mark>Open Discord</mark></font>
+
+<font size="6">◆ d</font>
+
+**Hyper d**
+
+---
+
 ---
 
 ---
